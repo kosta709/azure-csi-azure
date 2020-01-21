@@ -61,9 +61,14 @@ kubectl -nkube-system get pods  cloud-controller-manager-k8s-master-17068304-0 -
 
 Create pod with load balancer and see logs + see lb on azure
 ```
-kubectl create 
+kubectl create -f cloud-controller-example/
+```
 
-### CSI Pods
+### CSI 
+
+https://github.com/kubernetes-sigs/azuredisk-csi-driver
+https://medium.com/@kosta709/kubernetes-csi-in-action-d5cf59857eee
+
 
 CSI API Resources  
 ```
